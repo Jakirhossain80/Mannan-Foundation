@@ -188,9 +188,9 @@ nav .fa{
 }
 
 
-/* Course */
+/* project */
 
-.course{
+.project{
 
     width: 80%;
     margin: auto;
@@ -223,7 +223,7 @@ p{
 
 }
 
-.course-col{
+.project-col{
 
     flex-basis: 31%;
     background: #fff3f3 ;
@@ -237,6 +237,13 @@ p{
 
 }
 
+.project-col img{
+
+    width: 100%;
+    display: block;
+
+}
+
 h3{
     text-align: center;
     font-weight: 600;
@@ -244,12 +251,12 @@ h3{
 
 }
 
-.course-col:hover{
+.project-col:hover{
     box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
 
 }
 
-/* Responsive - Course */
+/* Responsive - project */
 
 @media(max-width: 700px){
 
@@ -260,9 +267,9 @@ h3{
 }
 
 
-/* Campus */
+/* activities */
 
-.campus{
+.activities{
     width: 80%;
     margin: auto;
     text-align: center;
@@ -271,7 +278,7 @@ h3{
 
 }
 
-.campus-col{
+.activities-col{
 
     flex-basis: 32%;
     border-radius: 10px;
@@ -281,7 +288,7 @@ h3{
 
 }
 
-.campus-col img{
+.activities-col img{
 
     width: 100%;
     display: block;
@@ -329,9 +336,9 @@ h3{
 }
 
 
-/* Facilities */
+/* Volunteer */
 
-.facilities{
+.Volunteer{
 
     width: 80%;
     margin: auto;
@@ -341,7 +348,7 @@ h3{
 
 }
 
-.facilities-col{
+.Volunteer-col{
 
     flex-basis: 31%;
     border-radius: 10px;
@@ -350,20 +357,20 @@ h3{
 
 }
 
-.facilities-col img{
+.Volunteer-col img{
 
     width: 100%;
     border-radius: 10px;
 
 }
 
-.facilities-col p{
+.Volunteer-col p{
 
     padding: 0;
 
 }
 
-.facilities-col h3{
+.Volunteer-col h3{
 
     margin: 16px 0 15px 0;
     text-align: left;
@@ -445,7 +452,7 @@ h3{
 
     width: 80%;
     margin: 100px auto;
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("images/banner2.jpg");
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("images/banner2.jpg");
     background-position: center;
     background-size: cover;
     border-radius: 10px;
