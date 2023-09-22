@@ -34,8 +34,8 @@ nav{
     text-align: center;
     color: #92ff04;
     font-weight: 900;
-    font-size: 25px;
-    font-family: 'Changa', sans-serif;
+    font-size: 20px;
+    font-family: 'Lemonada', cursive;
     letter-spacing: 0.1rem;
     line-height: 1.5rem;
 
@@ -309,7 +309,7 @@ h3{
 
 .layer:hover{
 
-    background: rgba(226,0,0,0.7);
+    background: rgba(101, 102, 101, 0.7);
 }
 
 .layer h3{
